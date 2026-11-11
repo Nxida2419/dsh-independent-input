@@ -1,0 +1,15 @@
+# 独立鼠标键盘（改造版）。默认 UIA / 窗口消息，不碰真实光标；physical 需显式开启。
+# enabled: 总开关（默认 true）；关掉后插件不执行任何动作。
+# cursorMode: companion（陪伴，默认，AI 光标一直显示）
+#              clean（整洁，动作后 cursorHoldMs 毫秒自动收起）
+# cursorSize: AI 光标边长像素（24–192，默认 64）
+# 光标外观按操作自动切换（pointer / text / link / vert / horz / move / dgn1 / dgn2 /
+# cross / unavailiable / help ...），不需要手选。
+- insert:
+    - id: independent-input-mod
+      name: dsh-independent-input-mod
+      config:
+        enabled: true
+        cursorMode: companion
+        cursorHoldMs: 2600
+        cursorSize: 64

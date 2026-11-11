@@ -1,0 +1,24 @@
+# NOTICE
+
+## Cursor artwork
+
+Files:
+
+- `assets/cursors/*.png`
+- `assets/previews/*.png`
+
+These cursor images are **third-party free material**, not original work by the
+maintainer of this repository (冬草里的鱼). Copyright remains with the original
+authors. They are **not** relicensed under the MIT license that covers the
+source code; use and redistribution are governed by the original asset pack's
+license.
+
+The original asset pack's author and license text are not bundled in this
+repository. Please consult the original pack for the exact attribution and
+terms. If you redistribute this project, keep this NOTICE and the original
+asset pack's attribution/license with the artwork.
+
+## Source code
+
+The source code (excluding the cursor artwork above) is MIT licensed; see
+`LICENSE`.

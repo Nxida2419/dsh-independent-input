@@ -1,0 +1,45 @@
+{
+  "name": "dsh-independent-input-mod",
+  "version": "0.5.5",
+  "type": "module",
+  "description": "独立鼠标键盘：以目标 hwnd + UIA / 窗口消息为主，physical 为辅；AI 光标看得见、移动有补间、主人一动键鼠立刻夺回控制。",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./sidecar.ps1": "./sidecar.ps1",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "assets",
+    "sidecar.ps1",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "computer-use",
+    "input",
+    "uia",
+    "windows"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "license": "MIT"
+}
